@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "coco-visualizer"
+version = "0.0.2"
+description = "This library provides functions to visualize coco format dataset"
+authors = ["kohei <koheitech001@gmail.com>"]
+license = "Apach-2.0"
+readme = "README.md"
+packages = [{include = "coco_visualizer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+certifi = ">=2022.12.7"
+charset-normalizer = ">=3.0.1"
+decorator = ">=4.4.2"
+idna = ">=3.4"
+imageio = ">=2.25.1"
+numpy = ">=1.19.1"
+urllib3 = ">=1.26.14"
+tqdm = ">=4.64.1"
+requests = ">=2.28.2"
+proglog = ">=0.1.10"
+pillow = ">=9.4.0"
+opencv-python = ">=4.7.0.68"
+moviepy = ">=1.0.3"
+imageio-ffmpeg = ">=0.4.8"
+coco-formatter = {git = "https://github.com/kevin-tofu/coco_formatter.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
