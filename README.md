@@ -3,6 +3,8 @@
 
 ## What this repository is going to solve  
 
+This library provides functions to visualize coco format dataset.
+
 ## How to install
 
 ### via poetry
