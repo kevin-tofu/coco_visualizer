@@ -5,18 +5,12 @@
 
 ## How to install
 
-### by pip
+### via poetry
 
 ```bash
 
-pip install git+https://github.com/kevin-tofu/coco_visualizer.git@main
+poetry add git+https://github.com/kevin-tofu/coco_visualizer.git
 
-```
-
-### by pip via requirements.txt
-
-```bash
-git+https://github.com/kevin-tofu/coco_visualizer.git@main
 ```
 
 ## How to use
